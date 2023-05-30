@@ -1,0 +1,28 @@
+
+#Olá, qual o seu nome?
+#Olá, ____.
+.data
+	pergunta: .asciz "Qual o seu nome?\n"
+	saudacao: .asciz "Olá, "
+	nome: .space 25
+.text
+	#impressão da pergunta
+	li a7, 4
+	la a0, pergunta
+	ecall
+	
+	#leitura do nome
+	li a7, 8
+	la a0, nome
+	li a1, 25
+	ecall
+	
+	#impressão da saudacao
+	li a7, 4
+	la a0, saudacao
+	ecall
+	
+	#impressao do nome (String)
+	li a7, 4
+	la a0, nome
+	ecall
