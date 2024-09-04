@@ -11,6 +11,8 @@
 
 Este repositório foi criado para fornecer uma referência prática para desenvolvedores e estudantes que desejam aprender a programar em assembly para a arquitetura RISC-V. Os exemplos variam de programas simples a implementações mais complexas, cobrindo conceitos fundamentais.
 
+**[Apresentação](RISC-V.pdf)**
+
 ## Exemplos
 
 Aqui estão alguns dos exemplos incluídos neste repositório:
